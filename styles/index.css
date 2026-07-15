@@ -26,29 +26,25 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 50px;
     background-color: var(--Purple-50);
     font-family: var(--ff);
-    
 }
 
 .container {
     width: 100%;
     max-width: 1110px;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    align-items: stretch;
 }
 
 .card {
-    border: 1px solid red;
     border-radius: 8px;
     padding: 2rem;
     color: var(--White);
     font-size: 13px;
+    box-shadow: 8px 20px 40px rgba(0, 0, 0, 0.5);
    
    
     
@@ -56,6 +52,7 @@ body {
         display: flex;
         align-items: center;
         gap: 16px;
+        padding-bottom: 10px;
 
         img {
             border-radius: 50%;
@@ -75,11 +72,13 @@ body {
 
         p {
             font-size: 13px;
+
         }
     }
 
     h1 {
         font-size: 20px;
+        padding-bottom: 10px;
     }
 }
 /* cores do cards */

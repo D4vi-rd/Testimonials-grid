@@ -124,3 +124,17 @@ body {
     grid-row: 1/3;
     
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .perfil {
+        position: relative;
+        z-index: 1;
+    }
+}

@@ -45,7 +45,11 @@ body {
     color: var(--White);
     font-size: 13px;
     box-shadow: 8px 20px 40px rgba(0, 0, 0, 0.5);
+    transition: 300ms;
    
+    &:hover {
+        transform: scale(1.04);
+    }
    
     
     .perfil {
